@@ -65,5 +65,11 @@ public class SauceDemoSteps
 		Password.sendKeys(dataTable.cell(0, 0));
 	}
 
+	@Then("I should check the product details")
+	public void i_should_check_the_product_details() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
 
 }
